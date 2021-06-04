@@ -1,0 +1,187 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #e6ce94;
+}
+.main-area{
+    border: 1px solid black;
+    background-color: white;
+    width: 90%;
+    margin: 50px auto;
+    padding: 5px 5px 0 5px;
+}
+header{
+    height: 100px;
+    background-color: #87bfdb;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+.form-box{
+    margin-right: 35px;
+    padding-top: 30px;
+}
+.search-area{
+    width: 200px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+.search-area:hover{
+    border: 1px solid #ce9871;
+}
+.search-btn{
+    width: 150px;
+    height: 40px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+    font-size: 15px;
+    font-weight: 700;
+}
+.search-btn:hover{
+    border: 1px solid #ce9871;
+}
+main{
+    display: flex;
+}
+article{
+    padding-bottom: 20px;
+}
+h1 a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+}
+h2{
+    color: #7c3705;
+    font-size: 35px;
+}
+p, main ul li{
+    color: black;
+    line-height: 35px;
+    font-size: 18px;
+}
+h6{
+    font-size: 20px;
+}
+.introduction{
+    border-right: 3px solid #87bfdb;
+    padding: 0;
+}
+.introduction img{
+    height: 300px;
+}
+.introduction ul li a, .showcase-works a{
+    text-decoration: none;
+}
+.introduction ul li{
+    list-style: none;
+}
+.introduction ul li a{
+    color: brown;
+    
+}
+.intro-details{
+    border-top: 4px solid #87bfdb;
+    border-bottom: 1px solid #87bfdb;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.course-work, .learning-log, .experience{
+    margin-bottom: 65px;
+}
+.experience{
+    padding-top: 20px;
+}
+.internship{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+.showcase-works a, .internship a{
+    font-size: 26px;
+    color: #4089ad;
+}
+.internship a{
+    font-size: 26px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.showcase-works a:hover{
+    text-decoration: underline;
+}
+.introduction ul li:hover{
+    text-decoration:underline;
+
+}
+.profile, .summery, .showcase, .qualification{
+    border-left: 3px solid #87bfdb;
+    padding: 20px;
+    margin-left: 1px;
+}
+.profile h3, .summery h3, .qualification h3{
+    font-size: 24px;
+}
+.profile h3{
+    color: orange;
+}
+.summery h3{
+    color: #d80f0f;
+}
+.hobby, .goals{
+    display: flex;
+}
+.interest-info, .goals-details{
+    width: 70%;
+}
+.interest-image, .goals-image{
+    width: 25%;
+    margin-right: 50px;
+}
+.interest-image img, .goals-image img{
+    width: 430px;
+    border: 1px solid #d3caca;
+    padding: 10px;
+}
+.bold{
+    font-weight: 900;
+    color: #5f2a04;
+    font-size: 20px;
+}
+.qualification h3{
+    color: green;
+}
+.table-1, .table-2, .table-3, .table-4{
+    display: grid;
+    border: 1px solid #d4d0d0;
+    margin: 15px;
+}
+.table-1, .table-3{
+    grid-template-columns: repeat(3, 1fr);
+}
+.table-2{
+    grid-template-columns: repeat(6, 1fr);
+}
+.table-4{
+    grid-template-columns: repeat(5, 1fr);
+}
+.td-1, .td-2, .td-3, .td-4{
+    border-bottom: 1px solid #d4d0d0;
+    padding: 10px;
+}
+.th-1, .th-2, .th-3, .th-4{
+    font-weight: 700;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    }
+footer p{
+    padding: 0 15px;
+    font-size: 15px;
+}
+footer a{
+    color: #c51919;
+}
